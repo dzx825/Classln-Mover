@@ -96,7 +96,7 @@ void GetWindowCmd(UINT showCmd, char* ReturnValue)
     case (UINT)SW_MINIMIZE: strcpy(ReturnValue, "最小化"); break;
     case (UINT)SW_SHOWMINIMIZED: strcpy(ReturnValue, "最小化"); break;
     case (UINT)SW_MAXIMIZE: strcpy(ReturnValue, "最大化"); break;
-    case (UINT)SW_NORMAL: strcpy(ReturnValue, "Normal"); break;
+    case (UINT)SW_NORMAL: strcpy(ReturnValue, "正常"); break;
     default: sprintf(ReturnValue, "%d", showCmd); break;
     }
 }
